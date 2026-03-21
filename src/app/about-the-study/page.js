@@ -55,7 +55,7 @@ export default function AboutStudyPage() {
                         </section>
 
                         {/* Full Width Section: Stats/Metrics */}
-                        <section className="col-span-1 md:col-span-2 p-10 md:p-14 border-t-2 border-primary/10 bg-primary/[0.02]">
+                        <section className="col-span-1 md:col-span-2 p-10 md:p-14 border-t-2 border-primary/10 bg-primary/2">
                             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                                 <div className="text-center p-6 border border-primary/10 rounded-3xl bg-white shadow-sm">
                                     <div className="text-3xl font-black text-primary mb-1">8th</div>

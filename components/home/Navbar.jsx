@@ -80,7 +80,7 @@ const Navbar = () => {
         
         <Link 
           href="/" 
-          className="flex items-center gap-3 cursor-pointer z-[60]"
+          className="flex items-center gap-3 cursor-pointer z-60"
           onClick={() => setOpen(false)}
         >
           <div className="relative h-10 w-10">
@@ -124,7 +124,7 @@ const Navbar = () => {
         </div>
 
         <button 
-          className='sm:hidden ml-4 cursor-pointer bg-white border-none flex items-center text-primary z-[60]' 
+          className='sm:hidden ml-4 cursor-pointer bg-white border-none flex items-center text-primary z-60' 
           onClick={() => setOpen(!open)}
         > 
           {open ? (
