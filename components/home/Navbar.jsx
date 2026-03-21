@@ -16,7 +16,7 @@ const Navbar = () => {
     { name: "Exegetes", path: "/exegetes", type: "page" },
     { name: "Verses", path: "/verses", type: "page" },
     { name: "FAQ", path: "#faq", type: "scroll" },
-    { name: "About the Study", path: "/about", type: "page" },
+    { name: "About the Study", path: "/about-the-study", type: "page" },
   ];
 
   const filteredLinks = navLinks.filter(link => {
