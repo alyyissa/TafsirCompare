@@ -3,8 +3,20 @@
 import React, { useState } from 'react';
 import Title from "../subComponent/Title";
 
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
+
+  useEffect(() => {
+            AOS.init({
+              duration: 1000,
+              once: false
+            });
+          }, []);
 
   const faqData = [
     {
@@ -38,7 +50,7 @@ const FAQ = () => {
   };
 
   return (
-    <section id="faq" className="my-16">
+    <section id="faq" className="my-16" data-aos="fade-up" data-aos-delay="200">
       <Title 
         title="Frequently Asked Questions" 
         subtitle="Find answers to common questions about our methodology and resources"

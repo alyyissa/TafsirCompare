@@ -48,7 +48,7 @@ export default function AllExegetesPage() {
             </p>
           </div>
 
-          <div className="flex w-full items-center border pl-4 gap-2 bg-white border-primary/20 h-13 rounded-full overflow-hidden max-w-md shadow-sm focus-within:border-primary focus-within:shadow-md transition-all">
+          <div className="flex items-center border pl-4 gap-2 bg-white border-primary/20 h-[52px] rounded-full overflow-hidden max-w-md w-full shadow-sm focus-within:border-primary focus-within:shadow-md transition-all">
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#07451e" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="11" cy="11" r="8"></circle>
                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -60,7 +60,7 @@ export default function AllExegetesPage() {
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
-            <button className="bg-primary hover:bg-hover cursor-pointer w-32 h-10.5 rounded-full text-sm font-bold text-white mr-1.25 transition-all active:scale-95">
+            <button className="bg-primary hover:bg-hover cursor-pointer w-32 h-[42px] rounded-full text-sm font-bold text-white mr-[5px] transition-all active:scale-95">
               Search
             </button>
           </div>
@@ -84,12 +84,12 @@ export default function AllExegetesPage() {
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-110"
                     />
-                    <div className="absolute inset-0 bg-linear-to-t from-primary/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-6">
+                    <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-6">
                       <span className="text-white text-xs font-bold tracking-widest uppercase">View Biography →</span>
                     </div>
                   </div>
 
-                  <div className="p-6 flex flex-col grow">
+                  <div className="p-6 flex flex-col flex-grow">
                     <div className="flex justify-between items-start mb-2">
                       <span className="text-[10px] font-bold uppercase tracking-tighter text-primary bg-primary/5 px-2 py-1 rounded border border-primary/10">
                         {scholar.school}

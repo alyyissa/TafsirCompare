@@ -21,8 +21,7 @@ const QuranInfoSection = () => {
     >
       <div className="lg:max-w-7xl max-w-xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          
-          {/* Image Container */}
+      
           <div className="relative aspect-[308/213] rounded-2xl overflow-hidden shadow-xl">
             <Image 
               src="/images/info3.jpg" 
