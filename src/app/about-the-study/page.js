@@ -1,104 +1,158 @@
+"use client";
 import React from "react";
 
 export default function AboutStudyPage() {
-    return (
-        <main className="min-h-screen pt-32 pb-20 bg-slate-50">
-            <div className="px-4 sm:px-6 max-w-5xl mx-auto">
-                
-                {/* Main Container with Heavy Border */}
-                <div className="bg-white border-2 border-primary/20 rounded-[40px] shadow-2xl shadow-emerald-900/5 overflow-hidden">
-                    
-                    {/* Header Section */}
-                    <header className="p-10 md:p-16 border-b-2 border-primary/10 text-center bg-slate-50/50">
-                        <span className="inline-block px-4 py-1 rounded-full bg-primary/10 text-primary text-[10px] font-black uppercase tracking-[0.2em] mb-6">
-                            Project Documentation
-                        </span>
-                        <h1 className="text-4xl md:text-7xl font-black text-slate-900 mb-6 tracking-tighter">
-                            About the Study
-                        </h1>
-                        <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto font-medium leading-relaxed">
-                            A formal inquiry into the historical development and linguistic 
-                            frameworks of Quranic Exegesis.
-                        </p>
-                    </header>
+  return (
+    <main className="min-h-screen pt-32 pb-20 bg-gradient-to-b from-slate-50 to-white font-sans">
+      <div className="px-4 sm:px-6 max-w-6xl mx-auto">
 
-                    {/* Content Body with Internal Borders */}
-                    <div className="grid grid-cols-1 md:grid-cols-2">
-                        
-                        {/* Section 1: Overview */}
-                        <section className="p-10 md:p-14 border-b-2 md:border-b-0 md:border-r-2 border-primary/10">
-                            <h2 className="text-sm font-black text-primary uppercase tracking-widest mb-6 flex items-center gap-3">
-                                <span className="w-2 h-2 rounded-full bg-primary"></span>
-                                01. The Mission
-                            </h2>
-                            <h3 className="text-2xl font-bold text-slate-800 mb-4">Bridging Traditions</h3>
-                            <p className="text-slate-600 leading-relaxed">
-                                Our study serves as a digital bridge between traditional 
-                                hermeneutics and modern analytical tools. We centralize 
-                                scholarly methodologies to provide a clear trajectory of 
-                                how understanding has evolved.
-                            </p>
-                        </section>
+        <div className="rounded-[40px] overflow-hidden border border-slate-200 bg-white shadow-xl">
 
-                        {/* Section 2: Integrity */}
-                        <section className="p-10 md:p-14">
-                            <h2 className="text-sm font-black text-primary uppercase tracking-widest mb-6 flex items-center gap-3">
-                                <span className="w-2 h-2 rounded-full bg-primary"></span>
-                                02. Academic Rigor
-                            </h2>
-                            <h3 className="text-2xl font-bold text-slate-800 mb-4">Verified Sources</h3>
-                            <p className="text-slate-600 leading-relaxed">
-                                Information is extracted directly from primary manuscripts 
-                                and peer-reviewed academic editions. We prioritize 
-                                accuracy over brevity to maintain scholarly integrity.
-                            </p>
-                        </section>
+          {/* HEADER */}
+          <header className="p-10 md:p-16 text-center bg-gradient-to-br from-primary/10 to-transparent">
+            <span className="inline-block px-4 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest mb-6">
+              Project Documentation
+            </span>
 
-                        {/* Full Width Section: Stats/Metrics */}
-                        <section className="col-span-1 md:col-span-2 p-10 md:p-14 border-t-2 border-primary/10 bg-primary/2">
-                            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-                                <div className="text-center p-6 border border-primary/10 rounded-3xl bg-white shadow-sm">
-                                    <div className="text-3xl font-black text-primary mb-1">8th</div>
-                                    <div className="text-[10px] text-slate-400 uppercase font-bold tracking-widest">Century Origin</div>
-                                </div>
-                                <div className="text-center p-6 border border-primary/10 rounded-3xl bg-white shadow-sm">
-                                    <div className="text-3xl font-black text-primary mb-1">100%</div>
-                                    <div className="text-[10px] text-slate-400 uppercase font-bold tracking-widest">Verified Data</div>
-                                </div>
-                                <div className="text-center p-6 border border-primary/10 rounded-3xl bg-white shadow-sm">
-                                    <div className="text-3xl font-black text-primary mb-1">Open</div>
-                                    <div className="text-[10px] text-slate-400 uppercase font-bold tracking-widest">Access</div>
-                                </div>
-                                <div className="text-center p-6 border border-primary/10 rounded-3xl bg-white shadow-sm">
-                                    <div className="text-3xl font-black text-primary mb-1">Peer</div>
-                                    <div className="text-[10px] text-slate-400 uppercase font-bold tracking-widest">Reviewed</div>
-                                </div>
-                            </div>
-                        </section>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-primary mb-6 tracking-tight">
+              About the Study
+            </h1>
 
-                        {/* Section 3: Methodology */}
-                        <section className="col-span-1 md:col-span-2 p-10 md:p-16 border-t-2 border-primary/10">
-                            <div className="max-w-2xl mx-auto text-center">
-                                <h2 className="text-sm font-black text-primary uppercase tracking-widest mb-6">
-                                    Research Methodology
-                                </h2>
-                                <p className="text-slate-600 italic text-lg leading-relaxed mb-10">
-                                    "Comparing the narrative approaches of traditionalists (Ma'thur) 
-                                    against the rationalist schools (Ra'y) to map the intellectual 
-                                    diversity of the Islamic world."
-                                </p>
-                            </div>
-                        </section>
+            <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto italic leading-relaxed">
+              "And We have revealed the Book to you explaining clearly everything,
+              and a guidance and mercy and good news for those who submit" (16:89)
+            </p>
+          </header>
+
+          <div className="p-8 md:p-14 space-y-16">
+
+            {/* INTRO CARD */}
+            <section className="bg-slate-50 rounded-3xl p-8 md:p-10 border border-slate-100">
+              <p className="font-bold text-slate-900 text-xl mb-4">
+                In the name of Allāh, the Most Gracious, the Most Merciful.
+              </p>
+
+              <p className="text-slate-600 leading-relaxed text-lg mb-4">
+                The Qur’an occupies a central and unparalleled place in the life of a Muslim...
+              </p>
+
+              <p className="text-slate-600 leading-relaxed text-lg">
+                The aim of this study is to present a comparison of the works of some prominent Muslim exegetes...
+              </p>
+            </section>
+
+            {/* PRINCIPLES */}
+            <section>
+              <h2 className="text-lg my-10 font-bold text-primary uppercase tracking-[0.4em] mb-10 text-center">
+                Methodological Foundations
+              </h2>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                {[
+                  {
+                    title: "The Qur’an explains itself",
+                    text: "Interpretation begins from within the Qur’an itself..."
+                  },
+                  {
+                    title: "Internal Consistency",
+                    text: "No interpretation should contradict the Qur’an as a whole..."
+                  },
+                  {
+                    title: "Tradition as a Supplement",
+                    text: "Ahādīth support interpretation but are weighed against the Qur’an..."
+                  },
+                  {
+                    title: "Contextual Necessity",
+                    text: "Verses must be understood within their surrounding context..."
+                  },
+                  {
+                    title: "Clarity over Ambiguity",
+                    text: "Ambiguous verses are clarified through decisive ones..."
+                  }
+                ].map((item, i) => (
+                  <div
+                    key={i}
+                    className="group p-6 rounded-2xl border border-slate-200 bg-white hover:shadow-lg transition"
+                  >
+                    <div className="text-primary font-black text-lg mb-2">
+                      0{i + 1}
                     </div>
+                    <h4 className="font-bold text-slate-900 mb-2 group-hover:text-primary transition">
+                      {item.title}
+                    </h4>
+                    <p className="text-slate-500 text-sm leading-relaxed">
+                      {item.text}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </section>
 
-                    {/* Bottom Branding Footer */}
-                    <footer className="p-8 bg-slate-900 text-center">
-                        <p className="text-slate-500 text-[10px] uppercase tracking-[0.4em] font-bold">
-                            TafsirCompare • Academic Research Division • 2026
-                        </p>
-                    </footer>
-                </div>
-            </div>
-        </main>
-    );
+            <section>
+              <h2 className="text-lg my-10 font-bold text-primary uppercase tracking-[0.4em] mb-10 text-center">
+                Selected Scholarly Voices
+              </h2>
+
+              <div className="grid md:grid-cols-3 gap-6">
+                {[
+                  { name: "Ibn Kathīr", desc: "Classical Sunni tradition." },
+                  { name: "Al-Qurṭubī", desc: "Juridical insights and legal reasoning." },
+                  { name: "Al-Rāzī", desc: "Philosophical and theological depth." },
+                  { name: "Al-Ṭabarsī", desc: "Linguistic precision and sectarian discourse." },
+                  { name: "Mawdūdī", desc: "Modern socio-political interpretation." },
+                  { name: "Ṭabāṭabāʾī", desc: "Philosophical and theological approach." }
+                ].map((exegete, i) => (
+                  <div
+                    key={i}
+                    className="p-6 rounded-2xl border border-slate-200 bg-slate-50 hover:bg-white hover:shadow-lg transition cursor-pointer"
+                  >
+                    <h4 className="font-bold text-slate-900 mb-2">
+                      {exegete.name}
+                    </h4>
+                    <p className="text-slate-500 text-sm">
+                      {exegete.desc}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            {/* DISCLAIMER */}
+            <section className="bg-slate-900 text-white rounded-3xl py-10 md:py-14">
+              <h2 className="text-lg font-bold text-primary uppercase tracking-[0.4em] mb-6">
+                Official Disclaimer
+              </h2>
+
+              <p className="text-slate-400 mb-4 leading-relaxed">
+                Some of the tafsīr works referenced in this study are not fully available in English...
+              </p>
+
+              <p className="text-slate-400 mb-8 leading-relaxed">
+                While every effort has been made to ensure accuracy...
+              </p>
+
+              <div className="flex flex-col md:flex-row justify-between items-center gap-4 border-t border-white/10 pt-6">
+                <span className="text-xs uppercase tracking-widest text-slate-400">
+                  Direct Inquiries
+                </span>
+
+                <a
+                  href="mailto:info@tafsircompare.com"
+                  className="text-xl font-bold hover:text-primary transition"
+                >
+                  info@tafsircompare.com
+                </a>
+              </div>
+            </section>
+
+          </div>
+
+          <footer className="p-6 text-center text-xs uppercase tracking-widest text-slate-400 border-t">
+            TafsirCompare • 2026
+          </footer>
+
+        </div>
+      </div>
+    </main>
+  );
 }
