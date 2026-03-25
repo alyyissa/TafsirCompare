@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-tawba-100"
-title: "Surah Al-Tawba (التوبة) – Verse 100"
+slug: surah-al-tawba-100
+title: Surah Al-Tawba (التوبة) – Verse 100
 interpretersCount: 4
-arabicVerse: |
-  وَالسَّابِقُونَ الْأَوَّلُونَ مِنَ الْمُهَاجِرِينَ وَالْأَنْصَارِ وَالَّذِينَ اتَّبَعُوهُم بِإِحْسَانٍ رَّضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ...
+arabicVerse: وَالسَّابِقُونَ الْأَوَّلُونَ مِنَ الْمُهَاجِرِينَ وَالْأَنْصَارِ وَالَّذِينَ اتَّبَعُوهُم بِإِحْسَانٍ رَّضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ...
 transliteration: "Was-sābiqūna al-awwalūna mina al-muhājirīna wal-anṣāri wa alladhīna ittabaʿūhum bi-iḥsān..."
 translation: "The early vanguard of the Emigrants and the Helpers and those who followed them in virtue—Allah is pleased with them and they are pleased with Him..."
 contextSignificance: "This verse is the primary Quranic 'Charter of Honor' for the first generation of Muslims. It categorizes believers into three groups: The Emigrants (Muhajirun), the Helpers (Ansar), and the Successors (Tabi'un). The central theological debate revolves around whether the 'pleasure of Allah' is a blanket, unconditional status for all early companions or a merit-based reward for those who remained sincere 'with excellence' (bi-iḥsān)."

@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-maidah-6"
-title: "Surah Al-Ma’idah (المائدة) – Verse 6"
+slug: surah-al-maidah-6
+title: Surah Al-Ma’idah (المائدة) – Verse 6
 interpretersCount: 3
-arabicVerse: |
-  يَا أَيُّهَا الَّذِينَ آمَنُواْ إِذَا قُمْتُمْ إِلَى الصَّلاةِ فَاغْسِلُواْ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى الْمَرَافِقِ وَامْسَحُواْ بِرُؤُوسِكُمْ وَأَرْجُلَكُمْ إِلَى الْكَعْبَيْنِ...
+arabicVerse: يَا أَيُّهَا الَّذِينَ آمَنُواْ إِذَا قُمْتُمْ إِلَى الصَّلاةِ فَاغْسِلُواْ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى الْمَرَافِقِ وَامْسَحُواْ بِرُؤُوسِكُمْ وَأَرْجُلَكُمْ إِلَى الْكَعْبَيْنِ...
 transliteration: "Yā ayyuhā alladhīna āmanū idhā qumtum ilā aṣ-ṣalāti faghhsilū wujūhakum wa aydiyakum ilā al-marāfiq, wa imsaḥū biru’ūsikum wa arjulakum ilā al-kaʿbayn..."
 translation: "O you who have faith! When you stand up for prayer, wash your faces and your hands up to the elbows, and wipe your heads, and your feet up to the ankles..."
 contextSignificance: "This verse is the primary constitutional text for Islamic ritual purity. It codifies the three forms of purification: Wudu (minor), Ghusl (major), and Tayammum (dry). It establishes that physical cleanliness is a non-negotiable threshold for spiritual communion (Salah), while simultaneously embedding the principle of 'Taysir' (Ease) for those in hardship."

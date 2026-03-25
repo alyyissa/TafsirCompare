@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-tahrim-1-2"
-title: "Surah Al-Taḥrīm (التحريم) – Verses 1-2"
+slug: surah-al-tahrim-1-2
+title: Surah Al-Taḥrīm (التحريم) – Verses 1-2
 interpretersCount: 4
-arabicVerse: |
-  يَا أَيُّهَا ٱلنَّبِيُّ لِمَ تُحَرِّمُ مَآ أَحَلَّ ٱللَّهُ لَكَ ۖ تَبْتَغِى مَرْضَاتَ أَزْوَٰجِكَ...
+arabicVerse:  يَا أَيُّهَا ٱلنَّبِيُّ لِمَ تُحَرِّمُ مَآ أَحَلَّ ٱللَّهُ لَكَ ۖ تَبْتَغِى مَرْضَاتَ أَزْوَٰجِكَ...
 transliteration: "Yā ayyuhā an-nabiyyu lima tuḥarrimu mā aḥalla Allāhu laka tabtaghī marḍāta azwājik..."
 translation: "O Prophet! Why do you forbid what Allah has made lawful for you, seeking to please your wives?"
 contextSignificance: "These opening verses address a domestic crisis that carried constitutional implications for Islamic law. The Prophet (saw) swore an oath to abstain from something permissible (halal) to resolve a grievance among his wives. Allah intervened not to punish a sin, but to clarify a core legislative principle: even the Prophet cannot permanently alter the boundaries of the lawful through personal oaths of abstinence."

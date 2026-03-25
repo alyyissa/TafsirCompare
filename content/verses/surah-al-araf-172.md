@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-araf-172"
-title: "Sūrah al-Aʿrāf (الأعراف) – Verse 172"
+slug: surah-al-araf-172
+title: Sūrah al-Aʿrāf (الأعراف) – Verse 172
 interpretersCount: 4
-arabicVerse: |
-  وَإِذْ أَخَذَ رَبُّكَ مِن بَنِي آدَمَ مِن ظُهُورِهِمْ ذُرِّيَّتَهُمْ وَأَشْهَدَهُمْ عَلَى أَنفُسِهِمْ أَلَسْتُ بِرَبِّكُمْ قَالُواْ بَلَى شَهِدْنَا أَن تَقُولُواْ يَوْمَ الْقِيَامَةِ إِنَّا كُنَّا عَنْ هَذَا غَافِلِينَ
+arabicVerse: وَإِذْ أَخَذَ رَبُّكَ مِن بَنِي آدَمَ مِن ظُهُورِهِمْ ذُرِّيَّتَهُمْ وَأَشْهَدَهُمْ عَلَى أَنفُسِهِمْ أَلَسْتُ بِرَبِّكُمْ قَالُواْ بَلَى شَهِدْنَا أَن تَقُولُواْ يَوْمَ الْقِيَامَةِ إِنَّا كُنَّا عَنْ هَذَا غَافِلِينَ
 transliteration: "Wa idh akhadha rabbuka min banī Ādama min ẓuhūrihim dhurriyyatahum wa ashhadahum ʿalā anfusihim: alastu birabbikum? Qālū: balā shahidnā, an taqūlū yawma al-qiyāmati innā kunnā ʿan hādhā ghāfilīn."
 translation: "When your Lord took from the Children of Adam—from their loins—their descendants and made them bear witness over themselves, [He said,] ‘Am I not your Lord?’ They said, ‘Yes, we bear witness.’ Lest you should say on the Day of Resurrection, ‘Indeed we were unaware of this.'"
 contextSignificance: "Commonly known as the 'Verse of the Covenant' (Mīthāq), this passage describes a primordial event where all of humanity testified to God's Lordship. It serves as the ultimate theological justification for human accountability: if the recognition of God is embedded in our origins, no one can claim ignorance on Judgment Day. The central debate among scholars is whether this was a literal physical assembly of souls or a metaphorical description of the innate human disposition (Fiṭrah)."

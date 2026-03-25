@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-waqiah-77-79"
-title: "Surah Al-Wāqiʿah (الواقعة) – Verses 77-79"
+slug: surah-al-waqiah-77-79
+title: Surah Al-Wāqiʿah (الواقعة) – Verses 77-79
 interpretersCount: 5
-arabicVerse: |
-  إِنَّهُ لَقُرْآنٌ كَرِيمٌ
+arabicVerse: إِنَّهُ لَقُرْآنٌ كَرِيمٌ
   فِي كِتَابٍ مَّكْنُونٍ
   لّا يَمَسُّهُ إِلاَّ الْمُطَهَّرُونَ
 transliteration: "Innahu la-qur’ānun karīm. Fī kitābin maknūn. Lā yamassuhu illā al-muṭahharūn."

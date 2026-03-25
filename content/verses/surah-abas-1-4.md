@@ -1,9 +1,8 @@
 ---
-slug: "surah-abas-1-4"
-title: "Surah ‘Abas (عبس) – Verses 1-4"
+slug: surah-abas-1-4
+title: Surah ‘Abas (عبس) – Verses 1-4
 interpretersCount: 5
-arabicVerse: |
-  عَبَسَ وَتَوَلَّىٰ أَن جَآءَهُ ٱلْأَعْمَىٰ وَمَا يُدْرِيكَ لَعَلَّهُۥ يَّزَّكَّىٰٓ أَوْ يَذَّكَّرُ فَتَنفَعَهُ ٱلذِّكْرَىٰ
+arabicVerse: عَبَسَ وَتَوَلَّىٰ أَن جَآءَهُ ٱلْأَعْمَىٰ وَمَا يُدْرِيكَ لَعَلَّهُۥ يَّزَّكَّىٰٓ أَوْ يَذَّكَّرُ فَتَنفَعَهُ ٱلذِّكْرَىٰ
 transliteration: "ʿAbasa wa tawallā An jā’ahu al-aʿmā Wa mā yudrīka laʿallahu yazzakkā Aw yadhdhakkaru fatanfaʿahu adh-dhikrā."
 translation: "He frowned and turned away, because the blind man approached him. And do you know, maybe he seeks to purify himself, or take admonition, and the admonition may benefit him."
 contextSignificance: "These opening verses of Sūrah ʿAbas have long drawn the attention of exegetes due to their sharp tone and the questions they raise about prophetic conduct, Qur’anic rhetoric, and the hierarchy of values in propagation. The central question is: who is the subject of the reproach? Is it the Prophet Muḥammad (s.a.w.) himself, or another figure whose behavior exposed misplaced values? The verses raise questions about how Islam evaluates worth: does social influence carry weight in propagation, or is purity of heart the only true measure? Above all, they serve as a reminder that in the sight of Allah, humility and eagerness for guidance outweigh all worldly prestige."

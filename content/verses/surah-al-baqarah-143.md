@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-baqarah-143"
-title: "Surah Al-Baqarah (البقرة) – Verse 143"
+slug: surah-al-baqarah-143
+title: Surah Al-Baqarah (البقرة) – Verse 143
 interpretersCount: 4
-arabicVerse: |
-  وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا لِّتَكُونُواْ شُهَدَاء عَلَى النَّاسِ وَيَكُونَ الرَّسُولُ عَلَيْكُمْ شَهِيدًا...
+arabicVerse: وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا لِّتَكُونُواْ شُهَدَاء عَلَى النَّاسِ وَيَكُونَ الرَّسُولُ عَلَيْكُمْ شَهِيدًا...
 transliteration: "Wa kadhālika jaʿalnākum ummatan wasaṭan litakūnū shuhadāʾa ʿalā an-nāsi wa yakūna ar-rasūlu ʿalaykum shahīdā..."
 translation: "Thus We made you a middle nation that you may be witnesses to the people and that the Apostle may be a witness to you..."
 contextSignificance: "Revealed alongside the change of the Qiblah (direction of prayer), this verse defines the identity and global mission of the Muslim community. It introduces the concept of the 'Ummatan Wasaṭan' (Middle/Balanced Nation), positioning Muslims as a mediating force between the Prophet and the rest of humanity. The verse explores the heavy responsibility of 'witnessing'—testifying to divine truth both in this world and on the Day of Judgment."

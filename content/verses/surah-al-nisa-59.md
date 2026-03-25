@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-nisa-59"
-title: "Surah Al-Nisa (النساء) – Verse 59"
+slug: surah-al-nisa-59
+title: Surah Al-Nisa (النساء) – Verse 59
 interpretersCount: 5
-arabicVerse: |
-  يَا أَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنكُمْ ۖ فَإِن تَنَازَعْتُمْ فِي شَيْءٍ فَرُدُّوهُ إِلَى اللَّهِ وَالرَّسُولِ...
+arabicVerse: يَا أَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنكُمْ ۖ فَإِن تَنَازَعْتُمْ فِي شَيْءٍ فَرُدُّوهُ إِلَى اللَّهِ وَالرَّسُولِ...
 transliteration: "Ya ayyuha alladhina amanu ati'u Allaha wa ati'u ar-rasula wa uli al-amri minkum fa-in tanaza'tum fi shay'in fa-rudduhu ila Allahi wa ar-rasuli..."
 translation: "O you who have faith! Obey Allah and obey the Apostle and those vested with authority among you. And if you dispute concerning anything, refer it to Allah and the Apostle..."
 contextSignificance: "Often called the 'Verse of Obedience,' this text serves as the constitutional bedrock for authority in Islam. It establishes a three-tiered hierarchy of command: Divine (Allah), Prophetic (The Messenger), and Delegated (Ulu’l-Amr). The central theological debate focuses on whether 'Ulu’l-Amr' refers to fallible political leaders or infallible, divinely appointed spiritual guides."

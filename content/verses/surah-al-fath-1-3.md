@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-fath-1-3"
-title: "Surah Al-Fath (الفتح) – Verses 1-3"
+slug: surah-al-fath-1-3
+title: Surah Al-Fath (الفتح) – Verses 1-3
 interpretersCount: 4
-arabicVerse: |
-  إِنَّا فَتَحْنَا لَكَ فَتْحًا مُّبِينًا لِّيَغْفِرَ لَكَ اللَّهُ مَا تَقَدَّمَ مِن ذَنبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهُ عَلَيْكَ وَيَهْدِيَكَ صِرَاطًا مُّسْتَقِيمًا وَيَنصُرَكَ اللَّهُ نَصْرًا عَزِيزًا
+arabicVerse: إِنَّا فَتَحْنَا لَكَ فَتْحًا مُّبِينًا لِّيَغْفِرَ لَكَ اللَّهُ مَا تَقَدَّمَ مِن ذَنبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهُ عَلَيْكَ وَيَهْدِيَكَ صِرَاطًا مُّسْتَقِيمًا وَيَنصُرَكَ اللَّهُ نَصْرًا عَزِيزًا
 transliteration: "Innā fataḥnā laka fatḥan mubīnā liyaghfira laka llāhu mā taqaddama min dhambika wa mā ta’akhkhara..."
 translation: "Indeed We have inaugurated for you a manifest victory, that Allah may forgive you what is past of your sin and what is to come, and complete His blessing upon you..."
 contextSignificance: "These opening verses celebrate the Treaty of Hudaybiyyah (6 AH) as a 'Manifest Victory.' While some companions initially viewed the treaty's concessions as a defeat, the Quran reveals it as the strategic turning point that neutralized the Quraysh and allowed for the rapid, peaceful expansion of Islam. The verses also address the unique spiritual status of the Prophet, mentioning forgiveness and the completion of divine favor."

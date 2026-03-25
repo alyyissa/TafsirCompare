@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-baqarah-207"
-title: "Surah Al-Baqarah (البقرة) – Verse 207"
+slug: surah-al-baqarah-207
+title: Surah Al-Baqarah (البقرة) – Verse 207
 interpretersCount: 5
-arabicVerse: |
-  وَمِنَ النَّاسِ مَن يَشْرِي نَفْسَهُ ابْتِغَاء مَرْضَاتِ اللَّهِ وَاللَّهُ رَؤُوفٌ بِالْعِبَادِ
+arabicVerse: وَمِنَ النَّاسِ مَن يَشْرِي نَفْسَهُ ابْتِغَاء مَرْضَاتِ اللَّهِ وَاللَّهُ رَؤُوفٌ بِالْعِبَادِ
 transliteration: "Wa mina an-nāsi man yashrī nafsahu ibtighā’a marḍāti Allāh, wa-Allāhu ra’ūfun bi-l-ʿibād."
 translation: "Among the people is he who sells his soul seeking Allah’s pleasure, and Allah is most kind to (His) servants."
 contextSignificance: "This verse provides a powerful antithesis to the preceding description of the hypocrite (2:206). While the hypocrite barters faith for worldly pride, the true believer enters into a divine transaction, 'selling' their very existence in exchange for God's pleasure. It serves as a foundational text for the theology of sacrifice and sincerity (Ikhlāṣ) in Islam."

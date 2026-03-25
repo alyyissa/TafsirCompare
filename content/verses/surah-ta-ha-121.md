@@ -1,9 +1,8 @@
 ---
-slug: "surah-ta-ha-121"
-title: "Surah Ṭā Hā (طه) – Verse 121"
+slug: surah-ta-ha-121
+title: Surah Ṭā Hā (طه) – Verse 121
 interpretersCount: 3
-arabicVerse: |
-  فَأَكَلَا مِنْهَا فَبَدَتْ لَهُمَا سَوْءَاتُهُمَا وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِنْ وَرَقِ ٱلْجَنَّةِ ۚ وَعَصَىٰ ءَادَمُ رَبَّهُۥ فَغَوَىٰ
+arabicVerse: فَأَكَلَا مِنْهَا فَبَدَتْ لَهُمَا سَوْءَاتُهُمَا وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِنْ وَرَقِ ٱلْجَنَّةِ ۚ وَعَصَىٰ ءَادَمُ رَبَّهُۥ فَغَوَىٰ
 transliteration: "Fa-akalā minhā fa-badat lahumā saw’ātuhumā, wa ṭafiqā yakhṣifāni ʿalayhimā min waraqi al-jannah. Wa ʿaṣā Ādamu rabbahu faghawā."
 translation: "So they ate from it, whereupon their nakedness became visible to them... Thus Adam disobeyed his Lord, and went astray."
 contextSignificance: "This verse describes the pivotal moment of the 'Fall' and raises the complex theological issue of Prophetic Infallibility (ʿIṣmah). If a Prophet 'disobeyed' (ʿaṣā) and 'went astray' (ghawā), does it constitute a sin? Exegetes must reconcile these specific Arabic terms with the status of Adam as a chosen Messenger, distinguishing between legal rebellion and human lapse."

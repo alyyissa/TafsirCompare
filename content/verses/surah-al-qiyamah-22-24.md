@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-qiyamah-22-24"
-title: "Surah Al-Qiyāmah (القيامة) – Verses 22-24"
+slug: surah-al-qiyamah-22-24
+title: Surah Al-Qiyāmah (القيامة) – Verses 22-24
 interpretersCount: 3
-arabicVerse: |
-  وُجُوهٌ يَوْمَئِذٍ نَّاضِرَةٌ
+arabicVerse: وُجُوهٌ يَوْمَئِذٍ نَّاضِرَةٌ
   إِلَى رَبِّهَا نَاظِرَةٌ
   وَوُجُوهٌ يَوْمَئِذٍ بَاسِرَةٌ
 transliteration: "Wujūhun yawma’idhin nāḍirah, Ilā rabbihā nāẓirah. Wa wujūhun yawma’idhin bāsirah."

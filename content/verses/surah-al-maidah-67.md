@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-maidah-67"
-title: "Surah Al-Ma’idah (المائدة) – Verse 67"
+slug: surah-al-maidah-67
+title: Surah Al-Ma’idah (المائدة) – Verse 67
 interpretersCount: 4
-arabicVerse: |
-  يَا أَيُّهَا الرَّسُولُ بَلِّغْ مَا أُنزِلَ إِلَيْكَ مِن رَّبِّكَ ۖ وَإِن لَّمْ تَفْعَلْ فَمَا بَلَّغْتَ رِسَالَتَهُ ۚ وَاللَّهُ يَعْصِمُكَ مِنَ النَّاسِ...
+arabicVerse: يَا أَيُّهَا الرَّسُولُ بَلِّغْ مَا أُنزِلَ إِلَيْكَ مِن رَّبِّكَ ۖ وَإِن لَّمْ تَفْعَلْ فَمَا بَلَّغْتَ رِسَالَتَهُ ۚ وَاللَّهُ يَعْصِمُكَ مِنَ النَّاسِ...
 transliteration: "Ya ayyuha ar-rasulu balligh ma unzila ilayka min rabbika wa in lam taf'al fama ballaghta risalatahu wa Allahu ya'simuka min an-nasi..."
 translation: "O Apostle! Communicate that which has been sent down to you from your Lord, and if you do not, you will not have communicated His message. Allah shall protect you from the people."
 contextSignificance: "Known as the 'Verse of Tabligh' (Proclamation), this is one of the most structurally unique verses in the Quran. It presents an ultimatum: the entire 23-year mission of the Prophet rests upon the delivery of this one specific message. It also contains a rare, explicit guarantee of divine protection ('Ya’simuka'), suggesting the Prophet anticipated severe backlash or accusations of personal bias upon its announcement."

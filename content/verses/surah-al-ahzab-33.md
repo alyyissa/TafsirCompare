@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-ahzab-33"
-title: "Surah Al-Aḥzāb (الأحزاب) – Verse 33"
+slug: surah-al-ahzab-33
+title: Surah Al-Aḥzāb (الأحزاب) – Verse 33
 interpretersCount: 5
-arabicVerse: |
-  وَقَرْنَ فِي بُيُوتِكُنَّ وَلَا تَبَرَّجْنَ تَبَرُّجَ الْجَاهِلِيَّةِ الْأُولَىٰ ۖ وَأَقِمْنَ الصَّلَاةَ وَآتِينَ الزَّكَاةَ وَأَطِعْنَ اللَّهَ وَرَسُولَهُ ۚ إِنَّمَا يُرِيدُ اللَّهُ لِيُذْهِبَ عَنكُمُ الرِّجْسَ أَهْلَ الْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيرًا
+arabicVerse: وَقَرْنَ فِي بُيُوتِكُنَّ وَلَا تَبَرَّجْنَ تَبَرُّجَ الْجَاهِلِيَّةِ الْأُولَىٰ ۖ وَأَقِمْنَ الصَّلَاةَ وَآتِينَ الزَّكَاةَ وَأَطِعْنَ اللَّهَ وَرَسُولَهُ ۚ إِنَّمَا يُرِيدُ اللَّهُ لِيُذْهِبَ عَنكُمُ الرِّجْسَ أَهْلَ الْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيرًا
 transliteration: "Wa qarna fi buyutikunna wa la tabarrajna tabarruja al-jahiliyyati al-ula... innama yuridu Allahu li-yudhiba 'ankumu ar-rijsa ahla al-bayti wa yutahhirakum tathiran"
 translation: "Stay in your houses, and do not flaunt your finery like the former [days of] ignorance... Indeed Allah desires to repel all impurity from you, O People of the Household, and purify you with a thorough purification."
 contextSignificance: "Verse 33:33, specifically the 'Purification Clause' (Ayat al-Tathir), is a focal point of Islamic theology. While the surrounding text addresses the Prophet's wives, this clause contains a sudden shift from feminine to masculine pronouns. This shift, along with the emphatic promise of total purification, triggers deep debates over the identity of the 'Ahl al-Bayt' and the nature of their sanctity (Ismah)."

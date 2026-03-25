@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-tawba-40"
-title: "Surah Al-Tawbah (التوبة) – Verse 40"
+slug: surah-al-tawba-40
+title: Surah Al-Tawbah (التوبة) – Verse 40
 interpretersCount: 4
-arabicVerse: |
-  إِلَّا تَنصُرُوهُ فَقَدْ نَصَرَهُ اللَّهُ إِذْ أَخْرَجَهُ ٱلَّذِينَ كَفَرُوا ثَانِىَ ٱثْنَيْنِ إِذْ هُمَا فِى ٱلْغَارِ...
+arabicVerse: إِلَّا تَنصُرُوهُ فَقَدْ نَصَرَهُ اللَّهُ إِذْ أَخْرَجَهُ ٱلَّذِينَ كَفَرُوا ثَانِىَ ٱثْنَيْنِ إِذْ هُمَا فِى ٱلْغَارِ...
 transliteration: "Illā tanṣurūhu faqad naṣarahu Allāhu idh akhrajahu alladhīna kafarū thāniya ithnayn..."
 translation: "If you do not help him, Allah has already helped him when the faithless expelled him..."
 contextSignificance: "This verse immortalizes the 'Cave of Thawr' incident during the Hijrah (migration). It serves as a divine rebuke to those who hesitated during the Tabuk expedition, reminding them that the Prophet’s success is guaranteed by God, not human numbers. It captures a moment of ultimate physical vulnerability transformed into spiritual triumph through 'Sakīnah' (divine tranquility)."

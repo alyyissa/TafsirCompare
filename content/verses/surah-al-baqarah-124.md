@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-baqarah-124"
-title: "Surah Al-Baqarah (البقرة) – Verse 124"
+slug: surah-al-baqarah-124
+title: Surah Al-Baqarah (البقرة) – Verse 124
 interpretersCount: 4
-arabicVerse: |
-  وَإِذِ ابْتَلَىٰ إِبْرَاهِيمَ رَبُّهُ بِكَلِمَاتٍ فَأَتَمَّهُنَّ ۖ قَالَ إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا ۖ قَالَ وَمِن ذُرِّيَّتِي ۖ قَالَ لَا يَنَالُ عَهْدِي الظَّالِمِينَ
+arabicVerse: وَإِذِ ابْتَلَىٰ إِبْرَاهِيمَ رَبُّهُ بِكَلِمَاتٍ فَأَتَمَّهُنَّ ۖ قَالَ إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا ۖ قَالَ وَمِن ذُرِّيَّتِي ۖ قَالَ لَا يَنَالُ عَهْدِي الظَّالِمِينَ
 transliteration: "Wa idhi ibtala Ibrahima rabbuhu bi-kalimatin fa-atammahunna qala inni ja'iluka li'n-nasi imaman..."
 translation: "When his Lord tested Abraham with certain words, and he fulfilled them, He said, 'I am making you the Imam of mankind.' Said he, 'And from among my descendants?' He said, 'My pledge does not extend to the unjust.'"
 contextSignificance: "This verse is a primary proof-text for the nature of divine leadership (Imāmah). It describes Abraham's elevation to the rank of 'Imam' only after he had successfully passed a series of grueling trials. The dialogue establishes that this station is a 'Covenant' (ʿAhd) from Allah, which is hereditary in Abraham's lineage but strictly forbidden to those who are 'unjust' (Zālimīn)."

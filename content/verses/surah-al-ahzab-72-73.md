@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-ahzab-72-73"
-title: "Surah Al-Ahzāb (الأحزاب) – Verses 72-73"
+slug: surah-al-ahzab-72-73
+title: Surah Al-Ahzāb (الأحزاب) – Verses 72-73
 interpretersCount: 5
-arabicVerse: |
-  إِنَّا عَرَضْنَا الأَمَانَةَ عَلَى السَّمَاوَاتِ وَالأَرْضِ وَالْجِبَالِ فَأَبَيْنَ أَن يَحْمِلْنَهَا وَأَشْفَقْنَ مِنْهَا وَحَمَلَهَا الإِنسَانُ إِنَّهُ كَانَ ظَلُومًا جَهُولا
+arabicVerse: إِنَّا عَرَضْنَا الأَمَانَةَ عَلَى السَّمَاوَاتِ وَالأَرْضِ وَالْجِبَالِ فَأَبَيْنَ أَن يَحْمِلْنَهَا وَأَشْفَقْنَ مِنْهَا وَحَمَلَهَا الإِنسَانُ إِنَّهُ كَانَ ظَلُومًا جَهُولا
   لِيُعَذِّبَ اللَّهُ الْمُنَافِقِينَ وَالْمُنَافِقَاتِ وَالْمُشْرِكِينَ وَالْمُشْرِكَاتِ وَيَتُوبَ اللَّهُ عَلَى الْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَكَانَ اللَّهُ غَفُورًا رَّحِيمًا
 transliteration: "Innā ʿaraḍnā al-amānata ʿalā as-samāwāti wa al-arḍi wa al-jibāl, fa-abayna an yaḥmilnahā wa ashfaqna minhā wa ḥamalahā al-insān, innahu kāna ẓalūman jahūlā. Liyuʿadhdhiba Allāhu al-munāfiqīna wa al-munāfiqāti wa al-mushrikīna wa al-mushrikāti wa yatūba Allāhu ʿala al-mu’minīna wa al-mu’mināti, wa kāna Allāhu ghafūran raḥīmā."
 translation: "Indeed We offered the Trust to the heavens and the earth and the mountains, but they refused to bear it and were apprehensive of it; but man undertook it. Indeed he is most unjust and ignorant. So that Allah may punish the hypocrites, men and women, and the polytheists, men and women, and that Allah may turn clemently to the faithful, men and women, and Allah is all-forgiving, all-merciful."

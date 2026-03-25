@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-rad-43"
-title: "Surah Al-Ra’ad (الرعد) – Verse 43"
+slug: surah-al-rad-43
+title: Surah Al-Ra’ad (الرعد) – Verse 43
 interpretersCount: 4
-arabicVerse: |
-  وَيَقُولُ الَّذِينَ كَفَرُواْ لَسْتَ مُرْسَلاً قُلْ كَفَى بِاللَّهِ شَهِيدًا بَيْنِي وَبَيْنَكُمْ وَمَنْ عِندَهُ عِلْمُ الْكِتَابِ
+arabicVerse: وَيَقُولُ الَّذِينَ كَفَرُواْ لَسْتَ مُرْسَلاً قُلْ كَفَى بِاللَّهِ شَهِيدًا بَيْنِي وَبَيْنَكُمْ وَمَنْ عِندَهُ عِلْمُ الْكِتَابِ
 transliteration: "Wa yaqūlu alladhīna kafarū lasta mursalan, qul kafā bi-llāhi shahīdan baynī wa baynakum wa man ʿindahu ʿilmu al-kitāb."
 translation: "The faithless say, ‘You have not been sent (by Allah).’ Say, ‘Allah suffices as a witness between me and you, and he who possesses the knowledge of the Book.’"
 contextSignificance: "This verse serves as the grand finale of Surah Al-Ra'd, providing a definitive rebuttal to those who denied the Prophet’s mission. It establishes a 'Dual Testimony' system: the Divine Witness (Allah) and a Human Witness (the one with Knowledge of the Book). The identity of this second witness is one of the most significant points of debate in Islamic exegesis, touching on the nature of evidence and the continuity of divine guidance."

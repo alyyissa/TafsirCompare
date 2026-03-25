@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-maidah-3"
-title: "Surah Al-Ma’idah (المائدة) – Verse 3"
+slug: surah-al-maidah-3
+title: Surah Al-Ma’idah (المائدة) – Verse 3
 interpretersCount: 5
-arabicVerse: |
-  حُرِّمَتْ عَلَيْكُمُ الْمَيْتَةُ وَالدَّمُ... الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي وَرَضِيتُ لَكُمُ الْإِسْلَامَ دِينًا
+arabicVerse: حُرِّمَتْ عَلَيْكُمُ الْمَيْتَةُ وَالدَّمُ... الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي وَرَضِيتُ لَكُمُ الْإِسْلَامَ دِينًا
 transliteration: "Hurrimat 'alaykumu al-maytatu wa ad-damu... Al-yawma akmaltu lakum dinakum wa atmamtu 'alaykum ni'mati..."
 translation: "Forbidden to you is carrion, blood... Today I have perfected your religion for you, and I have completed My blessing upon you, and I have approved Islam as your religion."
 contextSignificance: "Commonly known as the 'Verse of Perfection,' this revelation marks the culmination of the Prophetic mission. Revealed during the Farewell Pilgrimage (10 AH), it signifies the finality of the Islamic message. The verse is uniquely structured, embedding a massive theological declaration (Perfection of Religion) within a passage detailing dietary prohibitions."

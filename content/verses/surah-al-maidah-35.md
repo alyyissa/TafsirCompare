@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-maidah-35"
-title: "Surah Al-Mā’idah (المائدة) – Verse 35"
+slug: surah-al-maidah-35
+title: Surah Al-Mā’idah (المائدة) – Verse 35
 interpretersCount: 4
-arabicVerse: |
-  يَا أَيُّهَا ٱلَّذِينَ آمَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَٱبْتَغُوٓا۟ إِلَيْهِ ٱلْوَسِيلَةَ وَجَٰهِدُوا۟ فِى سَبِيلِهِۦ لَعَلَّكُمْ تُفْلِحُونَ
+arabicVerse: يَا أَيُّهَا ٱلَّذِينَ آمَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَٱبْتَغُوٓا۟ إِلَيْهِ ٱلْوَسِيلَةَ وَجَٰهِدُوا۟ فِى سَبِيلِهِۦ لَعَلَّكُمْ تُفْلِحُونَ
 transliteration: "Yā ayyuhā alladhīna āmanū ittaqū Allāha wa-abtaghū ilayhi al-wasīlata wa-jāhidū fī sabīlihi laʿallakum tufliḥūn"
 translation: "O you who have faith! Be wary of Allah, and seek the means of recourse to Him, and wage jihad in His way so that you may be felicitous."
 contextSignificance: "This verse is a cornerstone of Islamic spirituality and jurisprudence, outlining a three-step progression toward 'falāḥ' (success/felicity). It commands Taqwā (God-wariness), the seeking of a Wasīlah (means of approach), and Jihād (striving). The interpretation of 'Wasīlah' is the focal point of centuries of debate, touching upon the nature of intercession, the role of righteous deeds, and the necessity of spiritual mediators."

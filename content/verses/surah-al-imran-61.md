@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-imran-61"
-title: "Surah Āl ʿImrān (آل عمران) – Verse 61"
+slug: surah-al-imran-61
+title: Surah Āl ʿImrān (آل عمران) – Verse 61
 interpretersCount: 4
-arabicVerse: |
-  فَمَنْ حَاجَّكَ فِيهِ مِن بَعْدِ مَا جَاءَكَ مِنَ الْعِلْمِ فَقُلْ تَعَالَوْا نَدْعُ أَبْنَاءَنَا وَأَبْنَاءَكُمْ وَنِسَاءنَا وَنِسَاءكُمْ وَأَنفُسَنَا وأَنفُسَكُمْ ثُمَّ نَبْتَهِلْ فَنَجْعَل لَّعْنَةَ اللَّهِ عَلَى الْكَاذِبِينَ
+arabicVerse: فَمَنْ حَاجَّكَ فِيهِ مِن بَعْدِ مَا جَاءَكَ مِنَ الْعِلْمِ فَقُلْ تَعَالَوْا نَدْعُ أَبْنَاءَنَا وَأَبْنَاءَكُمْ وَنِسَاءنَا وَنِسَاءكُمْ وَأَنفُسَنَا وأَنفُسَكُمْ ثُمَّ نَبْتَهِلْ فَنَجْعَل لَّعْنَةَ اللَّهِ عَلَى الْكَاذِبِينَ
 transliteration: "Fa-man ḥājjaka fīhi min baʿdi mā jā’aka mina al-ʿilmi fa-qul taʿālaw nadʿu abnā’anā wa abnā’akum wa nisā’anā wa nisā’akum wa anfusanā wa anfusakum, thumma nabtahil fa-najʿal laʿnata Allāhi ʿala al-kādhibīn."
 translation: "Should anyone argue with you concerning him, after the knowledge that has come to you, say, ‘Come! Let us call our sons and your sons, our women and your women, our souls and your souls, then let us pray earnestly and call down Allah’s curse upon the liars.’"
 contextSignificance: "Verse 3:61, the Verse of Mubāhalah, concludes the Qur’an’s debate with the Christians of Najrān regarding Jesus. Rather than continuing abstract argument, it calls for a solemn invocation of divine judgment. By bringing those dearest to him—his sons, his woman, and his very self—the Prophet (s.a.w.) demonstrated ultimate certainty. The event is a critical point for understanding the Prophet’s mission and the revealed status of his household (Ahl al-Bayt), as the Christians withdrew upon seeing the group he brought forth, recognizing his sincerity."

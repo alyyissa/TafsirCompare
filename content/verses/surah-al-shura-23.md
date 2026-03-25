@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-shura-23"
-title: "Surah Al-Shūrā (الشورى) – Verse 23"
+slug: surah-al-shura-23
+title: Surah Al-Shūrā (الشورى) – Verse 23
 interpretersCount: 6
-arabicVerse: |
-  ذَلِكَ الَّذِي يُبَشِّرُ اللَّهُ عِبَادَهُ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ قُل لّا أَسْأَلُكُمْ عَلَيْهِ أَجْرًا إِلاَّ الْمَوَدَّةَ فِي الْقُرْبَى...
+arabicVerse:  ذَلِكَ الَّذِي يُبَشِّرُ اللَّهُ عِبَادَهُ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ قُل لّا أَسْأَلُكُمْ عَلَيْهِ أَجْرًا إِلاَّ الْمَوَدَّةَ فِي الْقُرْبَى...
 transliteration: "Qul lā as’alukum ʿalayhi ajran illā al-mawaddata fī al-qurbā..."
 translation: "Say, ‘I do not ask you any reward for it except love of [my] relatives.’"
 contextSignificance: "Commonly known as the 'Verse of Mawaddah' (Affection), this text addresses the Prophet's sincerity. While most prophets in the Quran declare they ask for 'no reward' (no wage), this verse introduces a 'Connected Exception.' The central debate is whether this 'love' is a tribal appeal for safety, a metaphorical call to seek nearness to God, or a divinely mandated devotion to the Prophet’s Household (Ahl al-Bayt) as the guardians of the message."

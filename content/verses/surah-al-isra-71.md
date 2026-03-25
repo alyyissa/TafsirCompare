@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-isra-71"
-title: "Surah Al-Isra (الإسراء) – Verse 71"
+slug: surah-al-isra-71
+title: Surah Al-Isra (الإسراء) – Verse 71
 interpretersCount: 4
-arabicVerse: |
-  يَوْمَ نَدْعُو كُلَّ أُنَاسٍ بِإِمَامِهِمْ ۖ فَمَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَأُولَٰئِكَ يَقْرَءُونَ كِتَابَهُمْ وَلَا يُظْلَمُونَ فَتِيلًا
+arabicVerse: يَوْمَ نَدْعُو كُلَّ أُنَاسٍ بِإِمَامِهِمْ ۖ فَمَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَأُولَٰئِكَ يَقْرَءُونَ كِتَابَهُمْ وَلَا يُظْلَمُونَ فَتِيلًا
 transliteration: "Yawma nad'u kulla unasin bi-imamihim fa-man utiya kitabahu bi-yaminihi fa-ula'ika yaqra'una kitabahum wa la yuzlamuna fatilan"
 translation: "The day We shall call every group of people with their Imam. So whoever is given his book in his right hand—they will read their book, and they will not be wronged [so much as] a single date-thread."
 contextSignificance: "This verse describes a central scene of the Day of Resurrection: the collective summoning of humanity. It establishes that judgment is not merely individual but tied to leadership and communal allegiance. The 'Imam' serves as the standard-bearer for each group, determining their trajectory toward success (the Right Hand) or failure."

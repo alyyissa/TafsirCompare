@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-nur-35-36"
-title: "Surah Al-Nūr (النور) – Verses 35-36"
+slug: surah-al-nur-35-36
+title: Surah Al-Nūr (النور) – Verses 35-36
 interpretersCount: 5
-arabicVerse: |
-  اللَّهُ نُورُ السَّمَاوَاتِ وَالأَرْضِ مَثَلُ نُورِهِ كَمِشْكَاةٍ فِيهَا مِصْبَاحٌ الْمِصْبَاحُ فِي زُجَاجَةٍ الزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌ دُرِّيٌّ يُوقَدُ مِن شَجَرَةٍ مُّبَارَكَةٍ زَيْتُونَةٍ لّا شَرْقِيَّةٍ وَلا غَرْبِيَّةٍ يَكَادُ زَيْتُهَا يُضِيءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌ نُّورٌ عَلَى نُورٍ يَهْدِي اللَّهُ لِنُورِهِ مَن يَشَاء وَيَضْرِبُ اللَّهُ الأَمْثَالَ لِلنَّاسِ وَاللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ
+arabicVerse: اللَّهُ نُورُ السَّمَاوَاتِ وَالأَرْضِ مَثَلُ نُورِهِ كَمِشْكَاةٍ فِيهَا مِصْبَاحٌ الْمِصْبَاحُ فِي زُجَاجَةٍ الزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌ دُرِّيٌّ يُوقَدُ مِن شَجَرَةٍ مُّبَارَكَةٍ زَيْتُونَةٍ لّا شَرْقِيَّةٍ وَلا غَرْبِيَّةٍ يَكَادُ زَيْتُهَا يُضِيءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌ نُّورٌ عَلَى نُورٍ يَهْدِي اللَّهُ لِنُورِهِ مَن يَشَاء وَيَضْرِبُ اللَّهُ الأَمْثَالَ لِلنَّاسِ وَاللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ
   فِي بُيُوتٍ أَذِنَ اللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا اسْمُهُ يُسَبِّحُ لَهُ فِيهَا بِالْغُدُوِّ وَالآصَالِ
 transliteration: "Allāhu nūru as-samāwāti wa al-arḍ. Mathalu nūrihi ka-mishkātin fīhā miṣbāḥ, al-miṣbāḥu fī zujājah, az-zujājatu ka-annahā kawkabun durrīy, yūqadu min shajaratin mubārakah zaytūnah, lā sharqiyyatin wa lā gharbiyyah, yakādu zaytuhā yuḍī’u wa law lam tamsashhu nār. Nūrun ʿalā nūr, yahdī Allāhu li-nūrihi man yashā’, wa yaḍribullāhu al-amthāla li-n-nās, wa Allāhu bi-kulli shay’in ʿalīm. Fī buyūtin adhina Allāhu an turfaʿa wa yudhkara fīhā ismuh, yusabbiḥu lahu fīhā bil-ghudūwi wa al-āṣāl."
 translation: "Allah is the Light of the heavens and the earth. The parable of His light is a niche wherein is a lamp—the lamp is in a glass, the glass as if it were a glittering star—lit from a blessed olive tree, neither eastern nor western, whose oil almost lights up, though fire should not touch it. Light upon light! Allah guides to His light whomever He wishes. Allah draws parables for mankind, and Allah has knowledge of all things. In houses Allah has allowed to be raised and wherein His Name is celebrated; He is glorified therein, morning and evening."

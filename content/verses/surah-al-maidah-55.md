@@ -1,9 +1,8 @@
 ---
-slug: "surah-al-maidah-55"
-title: "Surah Al-Ma’idah (المائدة) – Verse 55"
+slug: surah-al-maidah-55
+title: Surah Al-Ma’idah (المائدة) – Verse 55
 interpretersCount: 4
-arabicVerse: |
-  إِنَّمَا وَلِيُّكُمُ اللَّهُ وَرَسُولُهُ وَالَّذِينَ آمَنُوا الَّذِينَ يُقِيمُونَ الصَّلَاةَ وَيُؤْتُونَ الزَّكَاةَ وَهُمْ رَاكِعُونَ
+arabicVerse:  إِنَّمَا وَلِيُّكُمُ اللَّهُ وَرَسُولُهُ وَالَّذِينَ آمَنُوا الَّذِينَ يُقِيمُونَ الصَّلَاةَ وَيُؤْتُونَ الزَّكَاةَ وَهُمْ رَاكِعُونَ
 transliteration: "Innama waliyyukumu Allahu wa rasuluhu wa'lladhina amanu'lladhina yuqimuna's-salata wa yu'tuna'z-zakata wa hum raki'un"
 translation: "Your waliyy (guardian) is only Allah, His Apostle, and those who believe who maintain the prayer and give the zakāt while bowing down."
 contextSignificance: "Known as the 'Verse of Wilayah,' this text is a cornerstone of Islamic political and spiritual theology. It defines the exclusive chain of authority (Guardianship) in Islam. The verse uses the restrictive particle 'Innamā' (Only), narrowing the scope of legitimate authority to a specific hierarchy: Allah, the Prophet, and a particular group of believers defined by a unique act of charity."
