@@ -1,10 +1,9 @@
+import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
-import { NextResponse } from "next/server";
 
 export async function GET() {
   const directoryPath = path.join(process.cwd(), "content", "verses");
-  
   if (!fs.existsSync(directoryPath)) return NextResponse.json([]);
 
   const fileNames = fs.readdirSync(directoryPath);
@@ -15,23 +14,36 @@ export async function GET() {
     const fileContent = fs.readFileSync(fullPath, "utf8");
 
     const parts = fileContent.split("---");
-    const metaLines = parts[1]?.trim().split("\n") || [];
-    const data = {};
+    const metaBlock = parts[1] || "";
     
-    metaLines.forEach(line => {
-      const [key, ...value] = line.split(":");
-      if (key && value) {
-        const k = key.trim();
-        const v = value.join(":").trim();
-        if (k === "themes") {
-          data[k] = v.split(",").map(t => t.trim().replace(/[\[\]]/g, ""));
-        } else {
-          data[k] = v;
-        }
-      }
-    });
+    // Title
+    const title = metaBlock.match(/title:\s*"(.*)"/)?.[1] || metaBlock.match(/title:\s*(.*)/)?.[1];
+    
+    // Arabic Verse (Captures until transliteration starts)
+    const arabic = metaBlock.match(/arabicVerse:\s*([\s\S]*?)(?=transliteration:)/)?.[1]?.trim();
+    
+    // Transliteration (Captures until translation starts)
+    const translit = metaBlock.match(/transliteration:\s*([\s\S]*?)(?=translation:)/)?.[1]?.trim().replace(/^"|"$/g, '');
+    
+    // Translation (Captures until interpretersCount or context)
+    const trans = metaBlock.match(/translation:\s*"(.*)"/)?.[1] || metaBlock.match(/translation:\s*([\s\S]*?)(?=interpretersCount:|contextSignificance:)/)?.[1]?.trim();
+    
+    // Count
+    const count = metaBlock.match(/interpretersCount:\s*(\d+)/)?.[1];
+    
+    // Themes
+    const themesMatch = metaBlock.match(/themes:[\s\S]*?(\n\s*-[\s\S]*?)(?=\n\w+:|$)/);
+    const themes = themesMatch ? themesMatch[1].split('\n').map(t => t.replace('-','').trim().replace(/"/g,'')).filter(Boolean) : [];
 
-    return { slug, ...data };
+    return { 
+      slug, 
+      title, 
+      arabicVerse: arabic, 
+      transliteration: translit,
+      translation: trans, 
+      interpretersCount: count,
+      themes 
+    };
   });
 
   return NextResponse.json(allVerses);

@@ -20,9 +20,7 @@ const Navbar = () => {
   ];
 
   const filteredLinks = navLinks.filter(link => {
-    if (link.name === "FAQ") {
-      return pathname === "/";
-    }
+    if (link.name === "FAQ") return pathname === "/";
     return true;
   });
 
@@ -72,15 +70,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav 
+    <nav
       className={`fixed top-0 w-full z-50 transition-transform duration-300 border-b border-borderColor bg-white py-5 shadow-2xl
       ${showNavbar ? 'translate-y-0' : '-translate-y-full'}`}
     >
       <div className="flex items-center justify-between w-full mx-auto px-3 sm:px-4 md:px-11 lg:px-13 xl:px-12 2xl:px-16 relative text-gray-600">
         
-        <Link 
-          href="/" 
-          className="flex items-center gap-3 cursor-pointer z-60"
+        <Link
+          href="/"
+          className="flex items-center gap-3 cursor-pointer"
           onClick={() => setOpen(false)}
         >
           <div className="relative h-10 w-10">
@@ -98,7 +96,7 @@ const Navbar = () => {
         <div className={`
           max-sm:fixed max-sm:inset-0 max-sm:h-screen max-sm:w-full 
           flex flex-col sm:flex-row items-center justify-center sm:justify-end flex-1
-          gap-8 sm:gap-6 md:gap-8 transition-all duration-300 z-50 bg-white
+          gap-8 sm:gap-6 md:gap-8 transition-all duration-300 bg-white
           ${open ? "max-sm:translate-x-0" : "max-sm:translate-x-full sm:translate-x-0"}
         `}>
           {filteredLinks.map((link, index) => (
@@ -123,10 +121,10 @@ const Navbar = () => {
           ))}
         </div>
 
-        <button 
-          className='sm:hidden ml-4 cursor-pointer bg-white border-none flex items-center text-primary z-60' 
+        <button
+          className='sm:hidden ml-4 cursor-pointer bg-transparent border-none flex items-center text-primary z-50'
           onClick={() => setOpen(!open)}
-        > 
+        >
           {open ? (
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-8 h-8">
               <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
