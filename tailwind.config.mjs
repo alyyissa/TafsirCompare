@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#004713", // Your green
-        coprimary: "#1a1a1a", // Your dark slate/black
+        primary: "#004713",
+        coprimary: "#1a1a1a",
         hover: "#00661c",
       },
     },

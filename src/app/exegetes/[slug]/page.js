@@ -6,7 +6,7 @@ import Link from "next/link";
 export default async function ExegetePage({ params }) {
   const { slug } = await params;
 
-  const filePath = path.join(process.cwd(), "content", "verses", `${slug}.md`);
+  const filePath = path.join(process.cwd(), "content", "exegetes", `${slug}.md`);
 
   if (!fs.existsSync(filePath)) {
     return (
