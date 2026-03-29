@@ -12,10 +12,9 @@ const VerseCard = ({
   interpretersCount,
 }) => {
   return (
-    <div className="bg-white rounded-[2rem] border border-slate-200 p-6 md:p-8 shadow-sm hover:border-primary/30 transition-all duration-300 w-full max-w-4xl mx-auto flex flex-col gap-5">
+    <div className="bg-white rounded-[2rem] border-2 border-slate-200 p-6 md:p-8 shadow-sm hover:border-primary/30 transition-all duration-300 w-full max-w-4xl mx-auto flex flex-col gap-5">
       
-      {/* Header: Title and Exegetes Count */}
-      <div className="flex justify-between items-center border-b border-slate-50 pb-4">
+      <div className="flex justify-between items-center border-b border-slate-100 pb-4">
         <h2 className="text-lg md:text-xl font-black text-coprimary uppercase tracking-tight">
           {title}
         </h2>
@@ -25,20 +24,16 @@ const VerseCard = ({
         </div>
       </div>
 
-      {/* Body: Arabic Verse */}
-      <div className="pt-10 pb-10">
+      <div className="py-6">
         <p 
           dir="rtl" 
-          className="text-3xl md:text-4xl text-right text-primary leading-[1.8] md:leading-[2]"
-          style={{ fontFamily: "'Amiri', 'Scheherazade New', serif" }}
+          className="text-2xl md:text-3xl text-right text-primary leading-relaxed font-arabic"
         >
           {arabicVerse}
         </p>
       </div>
 
-      {/* Transliteration & Translation Group */}
       <div className="flex flex-col gap-3">
-        {/* Transliteration: Now placed above translation */}
         <div className="px-1">
           <h4 className="text-[9px] font-black uppercase tracking-[0.3em] text-slate-300 mb-1">Transliteration</h4>
           <p className="text-sm md:text-base italic text-slate-500 font-serif leading-relaxed">
@@ -46,7 +41,6 @@ const VerseCard = ({
           </p>
         </div>
 
-        {/* English Translation */}
         <div className="bg-slate-50/80 p-5 rounded-2xl border-l-[3px] border-primary">
           <h4 className="text-[9px] font-black uppercase tracking-[0.3em] text-primary/40 mb-1 text-left">Translation</h4>
           <p className="text-slate-800 text-md md:text-lg leading-snug font-bold">
@@ -55,7 +49,6 @@ const VerseCard = ({
         </div>
       </div>
 
-      {/* Footer: Themes (Small rounded divs) */}
       <div className="flex flex-wrap gap-2 py-2">
         {themes && themes.map((theme, index) => (
           <div 
@@ -67,18 +60,10 @@ const VerseCard = ({
         ))}
       </div>
 
-      {/* Action Footer: Compact Buttons */}
-      <div className="flex items-center justify-between pt-4 border-t border-slate-50">
+      <div className="flex items-center justify-end pt-4 border-t border-slate-100">
         <Link 
           href={`/verses/${slug}`}
-          className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-300 hover:text-primary transition-colors"
-        >
-          Details →
-        </Link>
-
-        <Link 
-          href={`/compare/${slug}`}
-          className="px-5 py-2.5 bg-primary text-white rounded-xl text-[10px] font-black uppercase tracking-[0.2em] hover:bg-hover transition-all shadow-md shadow-primary/10"
+          className="px-8 py-3 bg-primary text-white rounded-xl text-[10px] font-black uppercase tracking-[0.2em] hover:bg-hover transition-all shadow-md shadow-primary/10"
         >
           Compare
         </Link>

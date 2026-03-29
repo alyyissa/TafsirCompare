@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
-
 @theme {
+  --font-sans: var(--font-inter);
+  --font-arabic: var(--font-noto-arabic);
+
   --color-primary: #07451e;
   --color-coprimary: #082e36;
   --color-hover: #09612a;
@@ -13,5 +15,11 @@
 }
 
 .swiper-pagination-bullet-active {
-  background: #07451e !important; 
+  background: var(--color-primary) !important; 
+}
+
+@layer base {
+  body {
+    @apply bg-[#fdfdfd] text-slate-900 antialiased;
+  }
 }
