@@ -107,26 +107,33 @@ export default function AboutStudyPage() {
               </div>
             </section>
 
-            <section className="bg-slate-900 text-white rounded-3xl pb-10 px-2 md:p-14">
-              <h2 className="text-md font-bold text-primary uppercase py-10 tracking-[0.4em] mb-6 text-center">
+            <section className="bg-slate-50 rounded-[40px] p-8 md:p-14 border border-slate-200">
+              <h2 className="text-lg font-bold text-primary uppercase py-4 tracking-[0.4em] mb-6 text-center">
                 Official Disclaimer
               </h2>
-              <p className="text-slate-400 mb-4 leading-relaxed">
-                Some of the tafsīr works referenced in this study are not fully available in English. In such cases, the relevant passages have been translated directly from the original Arabic sources and then summarised for the purposes of comparative analysis.
-              </p>
-              <p className="text-slate-400 mb-8 leading-relaxed">
-                While every effort has been made to ensure accuracy and fidelity to the original texts, these translations and summaries remain human efforts and are therefore susceptible to inadvertent errors. They should not be treated as definitive substitutes for the original Arabic works.
-              </p>
-              <div className="flex flex-col md:flex-row justify-between items-center gap-4 border-t border-white/10 pt-6">
-                <span className="text-xs font-bold py-10  uppercase tracking-widest text-slate-400">
-                  Direct Inquiries
-                </span>
-                <a
-                  href="mailto:info@tafsircompare.com"
-                  className="text-xl font-bold text-primary transition"
-                >
-                  info@tafsircompare.com
-                </a>
+              <div className="max-w-3xl mx-auto">
+                <p className="text-slate-600 mb-6 leading-relaxed text-center">
+                  Some of the tafsīr works referenced in this study are not fully available in English. 
+                  In such cases, the relevant passages have been translated directly from the original 
+                  Arabic sources and then summarised for the purposes of comparative analysis.
+                </p>
+                <p className="text-slate-600 mb-10 leading-relaxed text-center">
+                  While every effort has been made to ensure accuracy and fidelity to the original texts, 
+                  these translations and summaries remain human efforts and are therefore susceptible 
+                  to inadvertent errors. They should not be treated as definitive substitutes for the original Arabic works.
+                </p>
+                
+                <div className="flex flex-col items-center gap-4 border-t border-slate-200 pt-10">
+                  <span className="text-[10px] font-black uppercase tracking-[0.4em] text-slate-400">
+                    Direct Inquiries
+                  </span>
+                  <a
+                    href="mailto:info@tafsircompare.com"
+                    className="text-2xl font-black text-primary hover:text-hover transition-colors duration-300"
+                  >
+                    info@tafsircompare.com
+                  </a>
+                </div>
               </div>
             </section>
 
