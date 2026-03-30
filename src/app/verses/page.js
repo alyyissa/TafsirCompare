@@ -5,6 +5,7 @@ import VerseCard from "../../../components/subComponent/VerseCard";
 
 export default function VersesPage() {
   const [allVerses, setAllVerses] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
   const [showTopBtn, setShowTopBtn] = useState(false);
 
   useEffect(() => {
@@ -45,6 +46,15 @@ export default function VersesPage() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const filteredVerses = allVerses.filter((verse) => {
+    const searchStr = searchTerm.toLowerCase();
+    return (
+      verse.title.toLowerCase().includes(searchStr) ||
+      verse.translation.toLowerCase().includes(searchStr) ||
+      verse.themes?.some(theme => theme.toLowerCase().includes(searchStr))
+    );
+  });
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -61,14 +71,33 @@ export default function VersesPage() {
 
   return (
     <main className="min-h-screen bg-[#fdfdfd] pt-24 pb-32 text-slate-900 relative">
-      <div className="px-3 sm:px-4 md:px-11 lg:px-13 xl:px-12 2xl:px-16 mb-12">
-        <div className="max-w-screen-2xl mx-auto border-l-[3px] border-primary pl-6 md:pl-10">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter text-primary mb-4 uppercase leading-none">
-            The Verses
-          </h1>
-          <p className="text-slate-500 text-sm md:text-lg font-medium max-w-xl leading-relaxed font-serif italic">
-            A vertical archive of linguistic precision. Each entry represents a "Locker" of thematic depth and exegetical analysis.
-          </p>
+      <div className="px-3 sm:px-4 md:px-11 lg:px-13 xl:px-12 2xl:px-16 mb-16">
+        <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-10">
+          <div className="border-l-[3px] border-primary pl-6 md:pl-10">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter text-primary uppercase leading-none">
+              The Verses
+            </h1>
+            <p className="text-slate-500 text-sm md:text-lg font-medium max-w-xl leading-relaxed font-serif italic mt-4">
+              A vertical archive of linguistic precision. Each entry represents a "Locker" of thematic depth.
+            </p>
+          </div>
+
+          <div className="flex items-center border pl-4 gap-2 bg-white border-primary/20 h-[52px] rounded-full overflow-hidden max-w-md w-full shadow-sm focus-within:border-primary focus-within:shadow-md transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#07451e" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input 
+              type="text" 
+              placeholder="Search by title, theme, or content..."
+              className="w-full h-full outline-none text-sm text-primary placeholder:text-primary/50 bg-transparent"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+            <button className="bg-primary hover:bg-hover cursor-pointer w-32 h-[42px] rounded-full text-sm font-bold text-white mr-[5px] transition-all active:scale-95">
+              Search
+            </button>
+          </div>
         </div>
       </div>
 
@@ -80,7 +109,7 @@ export default function VersesPage() {
                 Archive Index
               </p>
               <span className="text-[10px] font-black uppercase tracking-[0.2em] text-primary bg-primary/5 px-2 py-0.5 rounded-md">
-                {allVerses.length} Verses
+                {allVerses.length} Total
               </span>
             </div>
             <nav className="flex-1 overflow-y-auto overflow-x-hidden pr-4 border-l border-slate-100 custom-scrollbar">
@@ -99,24 +128,43 @@ export default function VersesPage() {
           </aside>
 
           <div className="flex-1 flex flex-col gap-8"> 
-            {allVerses.map((verse, index) => (
-              <section 
-                key={verse.slug} 
-                id={verse.slug} 
-                className="scroll-mt-32"
-              >
-                <VerseCard 
-                  index={index}
-                  slug={verse.slug}
-                  title={verse.title}
-                  arabicVerse={verse.arabicVerse}
-                  transliteration={verse.transliteration}
-                  translation={verse.translation}
-                  themes={verse.themes}
-                  interpretersCount={verse.interpretersCount}
-                />
-              </section>
-            ))}
+            <div className="flex items-center gap-4 mb-2">
+               <span className="px-4 py-1.5 bg-slate-100 text-slate-500 rounded-full text-[10px] font-black uppercase tracking-widest border border-slate-200">
+                 Showing {filteredVerses.length} {filteredVerses.length === 1 ? 'Result' : 'Results'}
+               </span>
+               <div className="h-px bg-slate-100 flex-1"></div>
+            </div>
+
+            {filteredVerses.length > 0 ? (
+              filteredVerses.map((verse, index) => (
+                <section 
+                  key={verse.slug} 
+                  id={verse.slug} 
+                  className="scroll-mt-32"
+                >
+                  <VerseCard 
+                    index={index}
+                    slug={verse.slug}
+                    title={verse.title}
+                    arabicVerse={verse.arabicVerse}
+                    transliteration={verse.transliteration}
+                    translation={verse.translation}
+                    themes={verse.themes}
+                    interpretersCount={verse.interpretersCount}
+                  />
+                </section>
+              ))
+            ) : (
+              <div className="py-24 text-center border-2 border-dashed border-slate-100 rounded-[3rem] bg-slate-50/30">
+                <p className="text-slate-400 font-black uppercase tracking-widest text-[10px]">No verses match your search</p>
+                <button 
+                  onClick={() => setSearchTerm("")}
+                  className="mt-4 text-primary text-[10px] font-black uppercase tracking-widest hover:underline cursor-pointer"
+                >
+                  Clear Search
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </div>
