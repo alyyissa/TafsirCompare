@@ -29,17 +29,13 @@ export default function VersesPage() {
           }, 150);
         }
       } catch (err) {
-        console.error("Failed to fetch verses", err);
+        console.error(err);
       }
     }
     fetchData();
 
     const handleScroll = () => {
-      if (window.scrollY > 600) {
-        setShowTopBtn(true);
-      } else {
-        setShowTopBtn(false);
-      }
+      setShowTopBtn(window.scrollY > 600);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -128,11 +124,26 @@ export default function VersesPage() {
           </aside>
 
           <div className="flex-1 flex flex-col gap-8"> 
-            <div className="flex items-center gap-4 mb-2">
-               <span className="px-4 py-1.5 bg-slate-100 text-slate-500 rounded-full text-[10px] font-black uppercase tracking-widest border border-slate-200">
-                 Showing {filteredVerses.length} {filteredVerses.length === 1 ? 'Result' : 'Results'}
-               </span>
-               <div className="h-px bg-slate-100 flex-1"></div>
+            <div className="flex items-center justify-between mb-2 gap-4">
+              <div className="flex items-center gap-3">
+                <span className="px-4 py-1.5 bg-slate-100 text-slate-500 rounded-full text-[10px] font-black uppercase tracking-widest border border-slate-200">
+                  Showing {filteredVerses.length} {filteredVerses.length === 1 ? 'Result' : 'Results'}
+                </span>
+                
+                {searchTerm && (
+                  <button 
+                    onClick={() => setSearchTerm("")}
+                    className="flex items-center gap-2 px-3 py-1.5 text-[10px] font-black uppercase tracking-widest text-primary hover:bg-primary/5 rounded-full transition-all cursor-pointer group"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="group-hover:rotate-90 transition-transform duration-300">
+                      <line x1="18" y1="6" x2="6" y2="18"></line>
+                      <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                    Clear
+                  </button>
+                )}
+              </div>
+              <div className="h-px bg-slate-100 flex-1"></div>
             </div>
 
             {filteredVerses.length > 0 ? (
@@ -173,7 +184,6 @@ export default function VersesPage() {
         <button
           onClick={scrollToTop}
           className="fixed bottom-10 right-10 z-50 p-4 bg-primary text-white rounded-2xl shadow-2xl hover:bg-hover transition-all duration-300 hover:-translate-y-1 active:scale-95 flex items-center justify-center group cursor-pointer"
-          aria-label="Scroll to top"
         >
           <svg 
             xmlns="http://www.w3.org/2000/svg" 

@@ -140,7 +140,7 @@ export default function AboutStudyPage() {
           </div>
 
           <footer className="p-6 text-center text-xs uppercase tracking-widest text-slate-400 border-t">
-            TafsirCompare • 2026
+            TafsirCompare • {new Date().getFullYear()}
           </footer>
 
         </div>
