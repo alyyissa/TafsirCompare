@@ -12,7 +12,7 @@ const VerseCard = ({
   interpretersCount,
 }) => {
   return (
-    <div className="bg-white rounded-[2rem] border-2 border-slate-200 p-6 md:p-8 shadow-sm hover:border-primary/30 transition-all duration-300 w-full max-w-4xl mx-auto flex flex-col gap-5">
+    <div className="bg-white rounded-4xl border-2 border-slate-200 p-6 md:p-8 shadow-sm hover:border-primary/30 transition-all duration-300 w-full max-w-4xl mx-auto flex flex-col gap-5">
       
       <div className="flex justify-between items-center border-b border-slate-100 pb-4">
         <h2 className="text-lg md:text-xl font-black text-coprimary uppercase tracking-tight">
@@ -20,7 +20,7 @@ const VerseCard = ({
         </h2>
         <div className="flex items-center gap-1.5 px-3 py-1 bg-slate-50 text-slate-400 text-[10px] font-bold uppercase tracking-widest rounded-lg border border-slate-100 shrink-0">
           <span className="text-primary">{interpretersCount}</span> 
-          <span className="hidden sm:inline">Exegetes</span>
+          <span className="hidden sm:inline">Interpretations</span>
         </div>
       </div>
 
@@ -35,15 +35,15 @@ const VerseCard = ({
 
       <div className="flex flex-col gap-3">
         <div className="px-1">
-          <h4 className="text-[9px] font-black uppercase tracking-[0.3em] text-slate-300 mb-1">Transliteration</h4>
+          <h4 className="text-[9px] font-black uppercase tracking-[0.3em] text-slate-400 mb-2">Transliteration</h4>
           <p className="text-sm md:text-base italic text-slate-500 font-serif leading-relaxed">
             {transliteration}
           </p>
         </div>
 
         <div className="bg-slate-50/80 p-5 rounded-2xl border-l-[3px] border-primary">
-          <h4 className="text-[9px] font-black uppercase tracking-[0.3em] text-primary/40 mb-1 text-left">Translation</h4>
-          <p className="text-slate-800 text-md md:text-lg leading-snug font-bold">
+          <h4 className="text-[9px] font-black uppercase tracking-[0.3em] text-slate-400 mb-2 text-left">Translation</h4>
+          <p className="text-slate-800 text-md leading-snug font-bold">
             {translation}
           </p>
         </div>

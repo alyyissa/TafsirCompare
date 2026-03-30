@@ -59,7 +59,10 @@ export default async function VerseDetailPage({ params }) {
       <div className="w-full px-3 sm:px-4 md:px-11 lg:px-13 xl:px-12 2xl:px-16 space-y-8">
         
         <header className="bg-white border border-slate-200 rounded-[2rem] p-8 md:p-12 shadow-sm w-full">
-          <Link href="/verses" className="text-[10px] font-black uppercase tracking-[0.3em] text-primary hover:text-hover mb-6 block transition-all">
+          <Link 
+            href={`/verses#${slug}`} 
+            className="text-[10px] font-black uppercase tracking-[0.3em] text-primary hover:text-hover mb-6 block transition-all"
+          >
             ← Back to library
           </Link>
           <h1 className="text-3xl md:text-5xl font-black tracking-tight text-coprimary uppercase leading-tight mb-4">
