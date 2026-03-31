@@ -7,6 +7,7 @@ export default function VersesPage() {
   const [allVerses, setAllVerses] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [showTopBtn, setShowTopBtn] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     async function fetchData() {
@@ -62,11 +63,34 @@ export default function VersesPage() {
         top: element.offsetTop - 120,
         behavior: "smooth"
       });
+      setIsMobileMenuOpen(false);
     }
   };
 
   return (
     <main className="min-h-screen bg-[#fdfdfd] pt-24 pb-32 text-slate-900 relative">
+      <div className={`fixed inset-0 z-[60] bg-white transition-transform duration-500 lg:hidden ${isMobileMenuOpen ? 'translate-y-0' : 'translate-y-full'}`}>
+        <div className="flex flex-col h-full">
+          <div className="p-6 flex items-center justify-between border-b">
+            <p className="text-[10px] font-black uppercase tracking-[0.4em] text-slate-500">Archive Index</p>
+            <button onClick={() => setIsMobileMenuOpen(false)} className="p-2 text-primary font-bold text-xs uppercase tracking-widest">Close</button>
+          </div>
+          <nav className="flex-1 overflow-y-auto p-6">
+            <div className="flex flex-col gap-2">
+              {allVerses.map((v) => (
+                <button
+                  key={v.slug}
+                  onClick={() => scrollToVerse(v.slug)}
+                  className="w-full text-left py-4 px-6 rounded-2xl bg-slate-50 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-600 active:bg-primary active:text-white transition-colors"
+                >
+                  {v.title.replace('Surah ', '')}
+                </button>
+              ))}
+            </div>
+          </nav>
+        </div>
+      </div>
+
       <div className="px-3 sm:px-4 md:px-11 lg:px-13 xl:px-12 2xl:px-16 mb-16">
         <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-10">
           <div className="border-l-[3px] border-primary pl-6 md:pl-10">
@@ -85,14 +109,11 @@ export default function VersesPage() {
             </svg>
             <input 
               type="text" 
-              placeholder="Search by title, theme, or content..."
+              placeholder="Search..."
               className="w-full h-full outline-none text-sm text-primary placeholder:text-primary/50 bg-transparent"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
-            <button className="bg-primary hover:bg-hover cursor-pointer w-32 h-[42px] rounded-full text-sm font-bold text-white mr-[5px] transition-all active:scale-95">
-              Search
-            </button>
           </div>
         </div>
       </div>
@@ -101,12 +122,8 @@ export default function VersesPage() {
         <div className="max-w-screen-2xl mx-auto flex flex-col lg:flex-row gap-12 xl:gap-20">
           <aside className="hidden lg:flex flex-col w-72 sticky top-32 h-[calc(100vh-160px)]">
             <div className="flex items-center justify-between mb-6 shrink-0 pr-4">
-              <p className="text-[10px] font-black uppercase tracking-[0.4em] text-slate-500">
-                Archive Index
-              </p>
-              <span className="text-[10px] font-black uppercase tracking-[0.2em] text-primary bg-primary/5 px-2 py-0.5 rounded-md">
-                {allVerses.length} Total
-              </span>
+              <p className="text-[10px] font-black uppercase tracking-[0.4em] text-slate-500">Archive Index</p>
+              <span className="text-[10px] font-black uppercase tracking-[0.2em] text-primary bg-primary/5 px-2 py-0.5 rounded-md">{allVerses.length} Total</span>
             </div>
             <nav className="flex-1 overflow-y-auto overflow-x-hidden pr-4 border-l border-slate-100 custom-scrollbar">
               <div className="flex flex-col">
@@ -129,12 +146,8 @@ export default function VersesPage() {
                 <span className="px-4 py-1.5 bg-slate-100 text-slate-500 rounded-full text-[10px] font-black uppercase tracking-widest border border-slate-200">
                   Showing {filteredVerses.length} {filteredVerses.length === 1 ? 'Result' : 'Results'}
                 </span>
-                
                 {searchTerm && (
-                  <button 
-                    onClick={() => setSearchTerm("")}
-                    className="flex items-center gap-2 px-3 py-1.5 text-[10px] font-black uppercase tracking-widest text-primary hover:bg-primary/5 rounded-full transition-all cursor-pointer group"
-                  >
+                  <button onClick={() => setSearchTerm("")} className="flex items-center gap-2 px-3 py-1.5 text-[10px] font-black uppercase tracking-widest text-primary hover:bg-primary/5 rounded-full transition-all cursor-pointer group">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="group-hover:rotate-90 transition-transform duration-300">
                       <line x1="18" y1="6" x2="6" y2="18"></line>
                       <line x1="6" y1="6" x2="18" y2="18"></line>
@@ -148,11 +161,7 @@ export default function VersesPage() {
 
             {filteredVerses.length > 0 ? (
               filteredVerses.map((verse, index) => (
-                <section 
-                  key={verse.slug} 
-                  id={verse.slug} 
-                  className="scroll-mt-32"
-                >
+                <section key={verse.slug} id={verse.slug} className="scroll-mt-32">
                   <VerseCard 
                     index={index}
                     slug={verse.slug}
@@ -168,30 +177,40 @@ export default function VersesPage() {
             ) : (
               <div className="py-24 text-center border-2 border-dashed border-slate-100 rounded-[3rem] bg-slate-50/30">
                 <p className="text-slate-400 font-black uppercase tracking-widest text-[10px]">No verses match your search</p>
-                <button 
-                  onClick={() => setSearchTerm("")}
-                  className="mt-4 text-primary text-[10px] font-black uppercase tracking-widest hover:underline cursor-pointer"
-                >
-                  Clear Search
-                </button>
+                <button onClick={() => setSearchTerm("")} className="mt-4 text-primary text-[10px] font-black uppercase tracking-widest hover:underline cursor-pointer">Clear Search</button>
               </div>
             )}
           </div>
         </div>
       </div>
 
+      <div className="fixed bottom-10 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 lg:hidden">
+        <button
+          onClick={() => setIsMobileMenuOpen(true)}
+          className="flex items-center gap-3 px-6 py-4 bg-primary text-white rounded-full shadow-2xl font-black text-[10px] uppercase tracking-[0.2em] active:scale-95 transition-transform"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          Index
+        </button>
+        
+        {showTopBtn && (
+          <button
+            onClick={scrollToTop}
+            className="p-4 bg-white border border-slate-200 text-primary rounded-full shadow-2xl active:scale-95 transition-transform flex items-center justify-center"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 15l7-7 7 7" />
+            </svg>
+          </button>
+        )}
+      </div>
+
       {showTopBtn && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-10 right-10 z-50 p-4 bg-primary text-white rounded-2xl shadow-2xl hover:bg-hover transition-all duration-300 hover:-translate-y-1 active:scale-95 flex items-center justify-center group cursor-pointer"
+          className="hidden lg:flex fixed bottom-10 right-10 z-50 p-4 bg-primary text-white rounded-2xl shadow-2xl hover:bg-hover transition-all duration-300 hover:-translate-y-1 active:scale-95 items-center justify-center group cursor-pointer"
         >
-          <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            className="h-6 w-6 transition-transform group-hover:-translate-y-0.5" 
-            fill="none" 
-            viewBox="0 0 24 24" 
-            stroke="currentColor"
-          >
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 transition-transform group-hover:-translate-y-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 15l7-7 7 7" />
           </svg>
         </button>
