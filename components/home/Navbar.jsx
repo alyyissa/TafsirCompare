@@ -74,7 +74,7 @@ const Navbar = () => {
       className={`fixed top-0 w-full z-50 transition-transform duration-300 border-b border-borderColor bg-white py-5 shadow-2xl
       ${showNavbar ? 'translate-y-0' : '-translate-y-full'}`}
     >
-      <div className="flex items-center justify-between w-full mx-auto px-3 sm:px-4 md:px-11 lg:px-13 xl:px-12 2xl:px-16 relative text-gray-600">
+      <div className="flex items-center justify-between w-full mx-auto px-3 sm:px-4 md:px-11 lg:px-13 xl:px-12 2xl:px-15 relative text-gray-600">
         
         <Link
           href="/"
@@ -105,7 +105,7 @@ const Navbar = () => {
                 key={index}
                 href={link.path}
                 onClick={() => setOpen(false)}
-                className="text-xl sm:text-[15px] lg:text-[16px] font-semibold text-primary transition-colors whitespace-nowrap hover:text-hover"
+                className="text-xl sm:text-[15px] lg:text-[15px] font-semibold text-primary transition-colors whitespace-nowrap hover:text-hover"
               >
                 {link.name}
               </Link>
@@ -113,7 +113,7 @@ const Navbar = () => {
               <button
                 key={index}
                 onClick={() => handleNavClick(link)}
-                className="text-xl sm:text-[15px] lg:text-[16px] font-semibold text-primary transition-colors whitespace-nowrap bg-transparent border-none outline-none p-0 cursor-pointer hover:text-hover"
+                className="text-xl sm:text-[15px] lg:text-[15px] font-semibold text-primary transition-colors whitespace-nowrap bg-transparent border-none outline-none p-0 cursor-pointer hover:text-hover"
               >
                 {link.name}
               </button>
