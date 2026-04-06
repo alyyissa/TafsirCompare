@@ -16,7 +16,7 @@ export default function ExegetesSwiper({ exegetes }) {
     useEffect(() => {
       AOS.init({
         duration: 1000,
-        once: false
+        once: false,
       });
     }, []);
   
