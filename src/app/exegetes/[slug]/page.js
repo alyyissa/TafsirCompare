@@ -87,14 +87,14 @@ export default async function ExegetePage({ params }) {
           
           <div className="lg:col-span-8 space-y-8">
             <div className="bg-white p-10 md:p-16 rounded-3xl shadow-xl border border-gray-100">
-              <h2 className="text-3xl font-bold text-primary mb-6 border-b-2 border-primary/10 pb-2">Biography</h2>
+              <h2 className="text-2xl font-bold text-primary mb-6 border-b-2 border-primary/10 pb-2">Biography</h2>
               <div className="whitespace-pre-wrap text-slate-700 leading-9 text-lg font-light">
                 {biography}
               </div>
 
               {methodology && (
                 <>
-                  <h2 className="text-3xl font-bold text-primary mt-12 mb-6 border-b-2 border-primary/10 pb-2">Methodology</h2>
+                  <h2 className="text-2xl font-bold text-primary mt-12 mb-6 border-b-2 border-primary/10 pb-2">Methodology</h2>
                   <div className="whitespace-pre-wrap text-slate-700 leading-9 text-lg font-light">
                     {methodology}
                   </div>
@@ -103,7 +103,7 @@ export default async function ExegetePage({ params }) {
 
               {contributions && (
                 <>
-                  <h2 className="text-3xl font-bold text-primary mt-12 mb-6 border-b-2 border-primary/10 pb-2">Key Contributions</h2>
+                  <h2 className="text-2xl font-bold text-primary mt-12 mb-6 border-b-2 border-primary/10 pb-2">Key Contributions</h2>
                   <div className="whitespace-pre-wrap text-slate-700 leading-9 text-lg font-light">
                     {contributions}
                   </div>

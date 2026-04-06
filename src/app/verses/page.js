@@ -109,7 +109,7 @@ export default function VersesPage() {
             </svg>
             <input 
               type="text" 
-              placeholder="Search..."
+              placeholder="Search for a verse, theme, or keyword..."
               className="w-full h-full outline-none text-sm text-primary placeholder:text-primary/50 bg-transparent"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
