@@ -98,8 +98,7 @@ export default function VersesPage() {
               The Verses
             </h1>
             <p className="text-slate-500 text-sm md:text-lg font-medium max-w-xl leading-relaxed font-serif italic mt-4">
-              A vertical archive of linguistic precision. Each entry represents a "Locker" of thematic depth.
-            </p>
+              Navigate the archive through themed modules that categorize verses by subject matter, legal implications, or metaphysical concepts            </p>
           </div>
 
           <div className="flex items-center border pl-4 gap-2 bg-white border-primary/20 h-[52px] rounded-full overflow-hidden max-w-md w-full shadow-sm focus-within:border-primary focus-within:shadow-md transition-all">
